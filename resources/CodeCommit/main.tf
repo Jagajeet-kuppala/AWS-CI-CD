@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "ap-south-1"
+  region = var.region
 }
 
 resource "aws_codecommit_repository" "code_commit_repo" {
